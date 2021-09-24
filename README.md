@@ -5,11 +5,19 @@ Working on the MNIST database. The MNIST data is a database of handwritten digit
 Performed the following tasks:
 
 Load the database to variable named digit_mnist using the Keras inbuilt datasets (digit_mnist = keras.datasets.mnist)
+
 Import data to create X_train_full, y_train_full, X_test and y_test variables
+
 Normalize the data
+
 Create a validation set of 6000 images
+
 Create an ANN model with two dense layers of 200 and 100 neurons
+
 Compile and train the model for 60 epochs
+
 Plot the loss and accuracy against epoch
+
 Evaluate the model accuracy on the test dataset
+
 Predict the digit for the first 5 records of the test dataset
