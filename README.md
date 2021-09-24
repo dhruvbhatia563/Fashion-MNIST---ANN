@@ -1,7 +1,9 @@
 # Fashion-MNIST---ANN
+--------------------------------------------------------------------------------------------------------------------
 Working on the MNIST database. The MNIST data is a database of handwritten digits from 0 to 9. The database contains 60,000 28x28 grayscale images of the 10 digits, along with a test set of 10,000 images. Task is to create an ANN model for identifying the digit from the handwritten images.
-Performed the following tasks:
 ---------------------------------------------------------------------------------------------------------------------
+Performed the following tasks:
+
 Load the database to variable named digit_mnist using the Keras inbuilt datasets (digit_mnist = keras.datasets.mnist)
 Import data to create X_train_full, y_train_full, X_test and y_test variables
 Normalize the data
